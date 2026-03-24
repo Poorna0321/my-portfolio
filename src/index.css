@@ -44,3 +44,7 @@ body {
 .light {
   background-color: #F5F5F5;
 }
+
+.accent {
+  color: var(--accent);
+}
