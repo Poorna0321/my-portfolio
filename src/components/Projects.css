@@ -1,0 +1,131 @@
+.projects {
+    background-color: var(--bg-card);
+    padding: 100px 80px;
+}
+
+.projects-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.projects-eyebrow {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--accent);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.projects-header h2 {
+    font-size: 42px;
+    font-weight: 700;
+    color: var(--text-dark);
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+}
+
+.project-card {
+    background-color: var(--bg-dark);
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid transparent;
+    transition: transform 0.3s, border 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    border-color: var(--accent);
+}
+
+.project-image {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.project-card:hover .project-image img {
+    transform: scale(1.05);
+}
+
+.project-content {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.project-content h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--text-dark);
+}
+
+.project-content p {
+    font-size: 14px;
+    color: var(--text-dark);
+    opacity: 0.75;
+    line-height: 1.6;
+}
+
+.project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.tag {
+    background-color: rgba(0, 255, 156, 0.1);
+    color: var(--accent);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    border: 1px solid rgba(0, 255, 156, 0.2);
+}
+
+.project-links {
+    display: flex;
+    gap: 16px;
+    margin-top: 8px;
+}
+
+.project-links a {
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid var(--accent);
+    padding: 6px 16px;
+    border-radius: 6px;
+    transition: all 0.3s;
+}
+
+.project-links a:hover {
+    background-color: var(--accent);
+    color: #0D1117;
+}
+
+@media (max-width: 768px) {
+    .projects {
+        padding: 60px 24px;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+}

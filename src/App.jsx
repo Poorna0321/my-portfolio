@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar.jsx"
 import Hero from './components/Hero.jsx'
 import About from './components/About.jsx'
 import Skills from './components/Skills'
+import Projects from './components/Projects'
 
 
 function App() {
@@ -13,6 +14,8 @@ function App() {
       <Hero />
       <About />
       <Skills />
+      <Projects />
+
     </div>
 
   )
