@@ -35,3 +35,11 @@ body {
   --bg-card: #E8E8E8;
   --text-dark: #1a1a1a;
 }
+
+.dark {
+  background-color: #0D1117;
+}
+
+.light {
+  background-color: #F5F5F5;
+}

@@ -8,7 +8,7 @@ function About() {
                     <img src="/about.png" alt="About Me" />
                 </div>
                 <div className="about-content">
-                    <span className="eyebrow">About Me</span>
+                    <span className="about-eyebrow">About Me</span>
                     <h2>Who Am I?</h2>
                     <p>
                         I'm Poorna Vidarsha, a final-year Computer Science undergraduate
