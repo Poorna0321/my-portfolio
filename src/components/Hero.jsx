@@ -9,7 +9,7 @@ function Hero() {
             <div className="hero-content">
                 <p className="hero-greeting">Hi I am</p>
                 <h1 className="hero-name">Poorna Vidarsha</h1>
-                <h2 className="hero-title">Full Stack <span className="accent">Developer</span></h2>
+                <h2 className="hero-title">Software <span className="accent">Engineer</span></h2>
                 <div className="hero-socials">
                     <a href="https://github.com/Poorna0321" target="_blank"><FaGithub /></a>
                     <a href="https://linkedin.com/in/poorna-vidarsha" target="_blank"><FaLinkedin /></a>
