@@ -13,7 +13,7 @@ function Hero() {
                 <div className="hero-socials">
                     <a href="https://github.com/Poorna0321" target="_blank"><FaGithub /></a>
                     <a href="https://linkedin.com/in/poorna-vidarsha" target="_blank"><FaLinkedin /></a>
-                    <a href="#" target="_blank"><FaFacebook /></a>
+                    <a href="https://web.facebook.com/poornavidarsha.desilva" target="_blank"><FaFacebook /></a>
                 </div>
                 <div className="hero-buttons">
                     <a href="#contact" className="btn-primary">Hire Me</a>

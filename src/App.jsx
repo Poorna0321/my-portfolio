@@ -4,7 +4,8 @@ import Hero from './components/Hero.jsx'
 import About from './components/About.jsx'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
-
+import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
   const [darkMode, setDarkMode] = useState(true)
@@ -15,7 +16,8 @@ function App() {
       <About />
       <Skills />
       <Projects />
-
+      <Contact />
+      <Footer />
     </div>
 
   )

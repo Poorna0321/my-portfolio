@@ -9,7 +9,7 @@ function Navbar({ darkMode, setDarkMode }) {
     return (
         <nav className="navbar">
             <div className="navbar-logo">
-                <span>Poorna<span className="accent">.</span></span>
+                <span>Poorna<span className="accent">Vidarsha</span></span>
             </div>
             <ul className={`navbar-links ${menuOpen ? 'open' : ''}`}>
                 <li><a href="#home" onClick={() => setMenuOpen(false)}>Home</a></li>

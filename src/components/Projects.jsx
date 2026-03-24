@@ -23,7 +23,7 @@ const projects = [
         tags: ['Flutter', 'Firebase', 'Google ML Kit'],
         github: 'https://github.com/Poorna0321',
         live: null,
-        image: '/moodwave.png'
+        image: '/moodwave.jpeg'
     },
     {
         title: 'Drug Side Effect Mining',
@@ -31,7 +31,7 @@ const projects = [
         tags: ['Python', 'Selenium', 'Pandas'],
         github: 'https://github.com/Poorna0321',
         live: null,
-        image: '/drug.png'
+        image: '/drug.jpg'
     },
     {
         title: 'Smart Fish Tank',
