@@ -10,15 +10,12 @@
     z-index: 100;
 }
 
-.navbar-logo span {
+.navbar-logo>span {
     font-size: 24px;
     font-weight: 700;
     color: var(--text-dark);
 }
 
-.accent {
-    color: var(--accent);
-}
 
 .navbar-links {
     display: flex;

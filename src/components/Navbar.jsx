@@ -22,7 +22,7 @@ function Navbar({ darkMode, setDarkMode }) {
                 <button className="dark-toggle" onClick={() => setDarkMode(!darkMode)}>
                     {darkMode ? <MdOutlineLightMode /> : <MdDarkMode />}
                 </button>
-                <button className="btn-hire">Hire me</button>
+                <button className="btn-hire" onClick={() => window.location.href = '#contact'}>Hire me</button>
                 <button className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
                     {menuOpen ? '✕' : '☰'}
                 </button>
